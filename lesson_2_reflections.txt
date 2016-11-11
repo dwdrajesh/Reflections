@@ -16,4 +16,10 @@ To add files to the staging area: git add file.txt
 To remove files currently in the commit, command:
 git rm --cached file.txt
 
+How to add missing file to last commit:
+git add file.txt
+git commit --amend --no-edit
+(no-edit : it will keep the same commit message)
+
+Branching: To keep the main code in the master branch and to add experimental features that may introduce bugs.
 
