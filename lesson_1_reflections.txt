@@ -1,0 +1,13 @@
+Comparing files with 'diff -u' command is helpful since:
+a. It is easier to view what was changed from the last version
+b. can spot errors easier, if any
+
+
+Difference between manual commit in Git and Dropbox?
+-Manual commit is flexible.
+-Auto saving in Dropbox is not very useful since one cannot maintain useful records of the changes made during the auto save
+
+Git allows multiple files to be saved in one commit, collection of files that are related is called Repository.
+Dropbox saves each file separately, files cannot be saved in one shot.
+
+
