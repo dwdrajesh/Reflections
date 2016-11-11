@@ -1,0 +1,19 @@
+When a repository is created, I think a .git folder is created inside the current directory
+and the related files for tracking are added to .git.
+
+The files in the current directory are all recorded as "untracked files" since git commit is not done yet.
+
+
+Staging area:
+It allows only particular files to be included in a commit.
+For example, only files A and B can be included in a commit while file C in the same directory will 
+not be included. 
+The status can be checked by : git status 
+
+
+To add files to the staging area: git add file.txt
+
+To remove files currently in the commit, command:
+git rm --cached file.txt
+
+
