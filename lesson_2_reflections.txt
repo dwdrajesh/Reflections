@@ -23,3 +23,19 @@ git commit --amend --no-edit
 
 Branching: To keep the main code in the master branch and to add experimental features that may introduce bugs.
 
+View logs/branches:
+git log --graph --oneline master new_branch
+
+Merge two branches:
+git merge master otherBranch
+It will merge the otherBranch to master and master will contain the updated files.
+
+git diff : will show differences between the files in the repository and working directory.
+git diff --staged: differences between repository and staging area.
+
+
+Merge conflict:
+If 2 users change the same lines or functions, conflict occurs and git warns.
+It has to be corrected manually. The conflicted file has lines with '<<<<<' and '>>>>' that surround the conflicting lines in HEAD(current branch commit), other branch and the last common lines.
+
+
