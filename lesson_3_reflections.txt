@@ -5,3 +5,10 @@ git config --global user.email 'dwdrajesh@yahoo.com'
 git config --global user.ui 'auto'
 
 --global : To avoid typing the above config commands for next projects on this PC
+
+Manual pull and push in Github:
+git push origin master: origin is the name of the remote repo and master is the local repo.
+
+git pull origin master: Merges local master branch from the remote branch called 'origin'.
+
+
