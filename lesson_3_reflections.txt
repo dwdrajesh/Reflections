@@ -1,0 +1,7 @@
+Github:
+
+git config --global user.name 'Rajesh'
+git config --global user.email 'dwdrajesh@yahoo.com'
+git config --global user.ui 'auto'
+
+--global : To avoid typing the above config commands for next projects on this PC
