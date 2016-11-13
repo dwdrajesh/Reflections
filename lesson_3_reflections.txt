@@ -20,7 +20,23 @@ c. Check using : git remove -v
 
 Differences between fork, clone, branch:
 Fork: Copy sb else's Github repo to your Github account, online only: Click on Fork in Github
-Clone: Update the Github branch to local pc: git clone 
+Clone: Update the Github branch to local pc: git clone; clone sets up a remote repo called 'origin' and downloads the 'master' branch to local pc
 Branch: Create a new branch from the existing HEAD commit
+
+Fetch:
+Clone sets a remote repo called origin and downloads a branch called master to local pc. However, another branch called origin/master is also downloaded that points to the HEAD of the remmote repo.
+So, locally there are 2 branches: master and origin/master. When we make new commit locally, only the local master branch is updated (not the local origin/master branch).
+
+push: updates the remote master branch based on the local master branch
+pull: updates both the local master and local origin/master branch based on remote master
+Fetch: only updates the local origin/master branch: git fetch origin
+To view all hidden branches: git branch -a
+So, pull = fetch origin + git merge master origin/master
+
+Tip: git status compares the local master branch and local origin/master branch.
+
+To see the log in a particular branch: git log origin/master , if branch is origin/master
+
+
 
 
