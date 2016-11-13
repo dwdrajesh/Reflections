@@ -11,4 +11,16 @@ git push origin master: origin is the name of the remote repo and master is the 
 
 git pull origin master: Merges local master branch from the remote branch called 'origin'.
 
+Fork: to use somebody's code and clone on Github account directly without downloading using 'clone'.
+
+Steps to fork: 
+a. Go to that person's Github repo, click on fork. It automatically creates a new repo on your profile
+b. Copy the github repo website and Clone to your computer using: git clone github.com/dwdrajesh/recipes.git
+c. Check using : git remove -v
+
+Differences between fork, clone, branch:
+Fork: Copy sb else's Github repo to your Github account, online only: Click on Fork in Github
+Clone: Update the Github branch to local pc: git clone 
+Branch: Create a new branch from the existing HEAD commit
+
 
