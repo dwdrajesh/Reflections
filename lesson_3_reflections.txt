@@ -37,6 +37,16 @@ Tip: git status compares the local master branch and local origin/master branch.
 
 To see the log in a particular branch: git log origin/master , if branch is origin/master
 
-
+Pull request:
+General workflow:
+1. There is a master branch on github on sb else's account
+2. You fork it so a copy of the repo and the master branch is on your Github
+3. You clone it to local pc: git clone origin master
+4. To make your changes for a new feature, create a new branch off from local master branch, called 'newFeature'
+5. Checkout the newFeature branch, add changes, commit, push to the newFeature branch (not master branch):
+	git push origin newFeature
+6. Now, send Pull request to the original owner on Github by going to your Github->newFeature branch->Pull request
+7. After the owner accepts, your changes are pushed to the original master.
+Note: You can try to see the changes on your master branch by merging as well first.
 
 
