@@ -49,4 +49,6 @@ General workflow:
 7. After the owner accepts, your changes are pushed to the original master.
 Note: You can try to see the changes on your master branch by merging as well first.
 
+Benefits of making new branch rather than working on local master branch:
+a. Working in teams, manager needs to approve the 'pull request' before merging the remote master with your branch
 
